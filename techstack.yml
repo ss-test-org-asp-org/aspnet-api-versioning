@@ -1,0 +1,308 @@
+repo_name: ss-test-org-asp-org/aspnet-api-versioning
+report_id: 2aa416aec3587c1c095946326b660763
+repo_type: Public
+timestamp: '2023-12-05T07:46:44+00:00'
+requested_by: commonsensesoftware
+provider: github
+branch: ms
+detected_tools_count: 23
+tools:
+- name: ASP.NET
+  description: An open source web framework for building modern web apps and services
+    with .NET
+  website_url: https://www.asp.net/
+  version: 4.7.2
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6755/2c45151a4a11d3a3c8e71bb34dd069d6_400x400.png
+  detection_source_url: github.com/ss-test-org-asp-org/aspnet-api-versioning/blob/ms/samples/webapi/AdvancedODataWebApiSample/AdvancedODataWebApiSample.csproj
+  detection_source: samples/webapi/AdvancedODataWebApiSample/AdvancedODataWebApiSample.csproj
+  last_updated_by: Chris Martinez
+  last_updated_on: 2018-12-21 23:07:36.000000000 Z
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source: Repo Metadata
+- name: Smalltalk
+  description: An object-oriented, dynamically typed reflective programming language
+  website_url: http://en.wikipedia.org/wiki/Smalltalk
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2624/no-img-open-source.png
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source: test/Microsoft.AspNetCore.Mvc.Acceptance.Tests/Microsoft.AspNetCore.Mvc.Acceptance.Tests.csproj
+  last_updated_by: Chris Martinez
+  last_updated_on: 2017-03-09 16:35:42.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '3.1'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: github.com/ss-test-org-asp-org/aspnet-api-versioning/blob/ms/samples/aspnetcore/AdvancedODataSample/AdvancedODataSample.csproj
+  detection_source: samples/aspnetcore/AdvancedODataSample/AdvancedODataSample.csproj
+  last_updated_by: Chris Martinez
+  last_updated_on: 2020-10-04 21:24:40.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: '3.1'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: github.com/ss-test-org-asp-org/aspnet-api-versioning/blob/ms/samples/aspnetcore/AdvancedODataSample/AdvancedODataSample.csproj
+  detection_source: samples/aspnetcore/AdvancedODataSample/AdvancedODataSample.csproj
+  last_updated_by: Chris Martinez
+  last_updated_on: 2020-10-04 21:24:40.000000000 Z
+- name: Azure Pipelines
+  description: Continuously build, test, and deploy to any platform and cloud
+  website_url: https://azure.microsoft.com/ko-kr/services/devops/pipelines/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/10164/528389819366_e7a0672f0480b3e98d21_512.png
+  detection_source: azure-pipelines.yml
+  last_updated_by: Chris Martinez
+  last_updated_on: 2022-04-05 04:35:55.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/codeql-analysis.yml"
+  last_updated_by: Chris Martinez
+  last_updated_on: 2022-03-23 15:42:29.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source: test/Microsoft.AspNetCore.Mvc.Acceptance.Tests/Microsoft.AspNetCore.Mvc.Acceptance.Tests.csproj
+  last_updated_by: Chris Martinez
+  last_updated_on: 2017-03-09 16:35:42.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source: ApiVersioning.sln
+  last_updated_by: Chris Martinez
+  last_updated_on: 2022-03-21 02:52:46.000000000 Z
+- name: Microsoft.AspNet.OData
+  description: This package contains everything you need to create OData v4.0 endpoints
+    using ASP.NET Web API and to support OData query syntax for your web APIs
+  package_url: https://www.nuget.org/Microsoft.AspNet.OData
+  version: 7.5.14
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13355/default_24f30a6aa060dc11b9cd4dd1d52905db9245e978.png
+  detection_source_url: github.com/ss-test-org-asp-org/aspnet-api-versioning/blob/ms/src/Microsoft.AspNet.OData.Versioning/Microsoft.AspNet.OData.Versioning.csproj
+  detection_source: src/Microsoft.AspNet.OData.Versioning/Microsoft.AspNet.OData.Versioning.csproj
+  last_updated_by: Chris Martinez
+  last_updated_on: 2022-03-21 01:26:41.000000000 Z
+- name: Microsoft.AspNet.WebApi.Client
+  description: This package adds support for formatting and content negotiation to
+    System.Net.Http
+  package_url: https://www.nuget.org/Microsoft.AspNet.WebApi.Client
+  version: 5.2.7
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12870/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
+  detection_source_url: github.com/ss-test-org-asp-org/aspnet-api-versioning/blob/ms/test/Microsoft.AspNetCore.Mvc.Acceptance.Tests/Microsoft.AspNetCore.Mvc.Acceptance.Tests.csproj
+  detection_source: test/Microsoft.AspNetCore.Mvc.Acceptance.Tests/Microsoft.AspNetCore.Mvc.Acceptance.Tests.csproj
+  last_updated_by: Chris Martinez
+  last_updated_on: 2019-12-28 19:09:11.000000000 Z
+- name: Microsoft.AspNet.WebApi.Core
+  description: This package contains the core runtime assemblies for ASP.NET Web API
+  package_url: https://www.nuget.org/Microsoft.AspNet.WebApi.Core
+  version: 5.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12879/default_4b18ad6ce0b5b2bd1dc822207c362ce8e0f74098.png
+  detection_source_url: github.com/ss-test-org-asp-org/aspnet-api-versioning/blob/ms/src/Microsoft.AspNet.WebApi.Versioning/Microsoft.AspNet.WebApi.Versioning.csproj
+  detection_source: src/Microsoft.AspNet.WebApi.Versioning/Microsoft.AspNet.WebApi.Versioning.csproj
+  last_updated_by: Chris Martinez
+  last_updated_on: 2022-03-21 01:26:41.000000000 Z
+- name: Microsoft.AspNet.WebApi.OwinSelfHost
+  description: This package allows you to host ASP.NET Web API within your own process
+    using the OWIN HttpListener server
+  package_url: https://www.nuget.org/Microsoft.AspNet.WebApi.OwinSelfHost
+  version: 5.2.7
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13500/default_83bd69dd2d30bd3eae917c5ac8376fd500016904.png
+  detection_source_url: github.com/ss-test-org-asp-org/aspnet-api-versioning/blob/ms/samples/webapi/AdvancedODataWebApiSample/AdvancedODataWebApiSample.csproj
+  detection_source: samples/webapi/AdvancedODataWebApiSample/AdvancedODataWebApiSample.csproj
+  last_updated_by: Chris Martinez
+  last_updated_on: 2018-12-21 23:07:36.000000000 Z
+- name: Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation
+  description: Runtime compilation support for Razor views and Razor Pages in ASP.NET
+    Core MVC
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation
+  version: 3.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14475/default_e2210dba7a410b29af824a406b1ff3bc92763715.png
+  detection_source_url: github.com/ss-test-org-asp-org/aspnet-api-versioning/blob/ms/test/Microsoft.AspNetCore.Mvc.Acceptance.Tests/Microsoft.AspNetCore.Mvc.Acceptance.Tests.csproj
+  detection_source: test/Microsoft.AspNetCore.Mvc.Acceptance.Tests/Microsoft.AspNetCore.Mvc.Acceptance.Tests.csproj
+  last_updated_by: Chris Martinez
+  last_updated_on: 2019-12-28 19:09:11.000000000 Z
+- name: Microsoft.AspNetCore.OData
+  description: This package contains everything you need to create OData v4.0 endpoints
+    using ASP.NET Core MVC and to support OData query syntax for your web APIs
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.OData
+  version: 7.5.8
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13776/default_300517a0879bc10cd5f0e9cabc8af8536f57ba23.png
+  detection_source_url: github.com/ss-test-org-asp-org/aspnet-api-versioning/blob/ms/src/Microsoft.AspNetCore.OData.Versioning/Microsoft.AspNetCore.OData.Versioning.csproj
+  detection_source: src/Microsoft.AspNetCore.OData.Versioning/Microsoft.AspNetCore.OData.Versioning.csproj
+  last_updated_by: Chris Martinez
+  last_updated_on: 2021-06-25 00:02:36.000000000 Z
+- name: Microsoft.Extensions.PlatformAbstractions
+  description: Abstractions that unify behavior and API across .NET Framework
+  package_url: https://www.nuget.org/Microsoft.Extensions.PlatformAbstractions
+  version: 1.1.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13040/default_ed36ff3c005af695725e05bb15ea5b1f03de31f3.png
+  detection_source_url: github.com/ss-test-org-asp-org/aspnet-api-versioning/blob/ms/samples/aspnetcore/SwaggerODataSample/SwaggerODataSample.csproj
+  detection_source: samples/aspnetcore/SwaggerODataSample/SwaggerODataSample.csproj
+  last_updated_by: Chris Martinez
+  last_updated_on: 2021-06-24 04:55:13.000000000 Z
+- name: Swashbuckle.AspNetCore
+  description: Swagger tools for documenting APIs built on ASP.NET Core
+  package_url: https://www.nuget.org/Swashbuckle.AspNetCore
+  version: 6.1.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12981/default_aa8a6e377c22dbeff795489a5ab127b1d597b5ed.png
+  detection_source_url: github.com/ss-test-org-asp-org/aspnet-api-versioning/blob/ms/samples/aspnetcore/SwaggerODataSample/SwaggerODataSample.csproj
+  detection_source: samples/aspnetcore/SwaggerODataSample/SwaggerODataSample.csproj
+  last_updated_by: Chris Martinez
+  last_updated_on: 2021-06-24 04:55:13.000000000 Z
+- name: Swashbuckle.Core
+  description: Seamlessly adds a Swagger to WebApi projects!
+  package_url: https://www.nuget.org/Swashbuckle.Core
+  version: 5.6.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13810/default_d358fd76413e7b8cc458411fede039268825f8c2.png
+  detection_source_url: github.com/ss-test-org-asp-org/aspnet-api-versioning/blob/ms/samples/webapi/SwaggerODataWebApiSample/SwaggerODataWebApiSample.csproj
+  detection_source: samples/webapi/SwaggerODataWebApiSample/SwaggerODataWebApiSample.csproj
+  last_updated_by: Chris Martinez
+  last_updated_on: 2018-12-21 23:07:36.000000000 Z
+- name: System.Reflection.Emit
+  description: Provides classes that allow a compiler or tool to emit metadata and
+    optionally generate a PE file on disk
+  package_url: https://www.nuget.org/System.Reflection.Emit
+  version: 4.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12904/default_d99202dafe7e36905074816809b8843282a82f2f.png
+  detection_source_url: github.com/ss-test-org-asp-org/aspnet-api-versioning/blob/ms/src/Microsoft.AspNetCore.OData.Versioning.ApiExplorer/Microsoft.AspNetCore.OData.Versioning.ApiExplorer.csproj
+  detection_source: src/Microsoft.AspNetCore.OData.Versioning.ApiExplorer/Microsoft.AspNetCore.OData.Versioning.ApiExplorer.csproj
+  last_updated_by: Chris Martinez
+  last_updated_on: 2022-03-21 01:26:41.000000000 Z
+- name: System.Runtime
+  description: Provides the fundamental primitives
+  package_url: https://www.nuget.org/System.Runtime
+  version: 4.1.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12849/default_0f5233770e71818507f2339042e7e61bef904e70.png
+  detection_source_url: github.com/ss-test-org-asp-org/aspnet-api-versioning/blob/ms/test/Microsoft.AspNet.OData.Versioning.ApiExplorer.Tests/Microsoft.AspNet.OData.Versioning.ApiExplorer.Tests.csproj
+  detection_source: test/Microsoft.AspNet.OData.Versioning.ApiExplorer.Tests/Microsoft.AspNet.OData.Versioning.ApiExplorer.Tests.csproj
+  last_updated_by: Chris Martinez
+  last_updated_on: 2017-08-31 16:11:32.000000000 Z
+- name: System.Threading.Tasks
+  description: Provides types that simplify the work of writing concurrent and asynchronous
+    code
+  package_url: https://www.nuget.org/System.Threading.Tasks
+  version: 4.0.11
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12899/default_4b18ad6ce0b5b2bd1dc822207c362ce8e0f74098.png
+  detection_source_url: github.com/ss-test-org-asp-org/aspnet-api-versioning/blob/ms/test/Microsoft.AspNet.OData.Versioning.ApiExplorer.Tests/Microsoft.AspNet.OData.Versioning.ApiExplorer.Tests.csproj
+  detection_source: test/Microsoft.AspNet.OData.Versioning.ApiExplorer.Tests/Microsoft.AspNet.OData.Versioning.ApiExplorer.Tests.csproj
+  last_updated_by: Chris Martinez
+  last_updated_on: 2017-08-31 16:11:32.000000000 Z
